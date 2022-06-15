@@ -1,0 +1,31 @@
+import { Document } from "mongoose";
+import * as mongoose from "mongoose";
+export declare type SampleDocument = Sample & Document;
+export declare class Sample {
+    sampleType: string;
+    isSmoker: boolean;
+    photoTaken: boolean;
+    fName: string;
+    pNumber: number;
+    cnic: number;
+    sampleDate: Date;
+    gender: string;
+    caste: string;
+    address: string;
+    district: string;
+    signature: string;
+    weight: number;
+    height: number;
+    familyDisease: boolean;
+    relationPreviousSample: boolean;
+    healthy: boolean;
+    age: boolean;
+    received: boolean;
+    resultAdded: boolean;
+    lan: number;
+    lag: number;
+    labName: string;
+    barcode: string;
+    UserId: mongoose.Schema.Types.ObjectId;
+}
+export declare const SampleSchema: mongoose.Schema<Document<Sample, any, any>, mongoose.Model<Document<Sample, any, any>, any, any>, {}>;

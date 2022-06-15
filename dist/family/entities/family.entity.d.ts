@@ -1,0 +1,32 @@
+import { Document } from "mongoose";
+import * as mongoose from "mongoose";
+export declare type FamilyDocument = Family & Document;
+export declare class Family {
+    sampleType: string;
+    isSmoker: boolean;
+    photoTaken: boolean;
+    familyName: string;
+    fName: string;
+    pNumber: number;
+    cnic: number;
+    sampleDate: Date;
+    gender: string;
+    caste: string;
+    address: string;
+    district: string;
+    weight: number;
+    height: number;
+    familyDisease: boolean;
+    relationPreviousSample: boolean;
+    healthy: boolean;
+    relation: string;
+    age: boolean;
+    lan: number;
+    lag: number;
+    labName: string;
+    barcode: string;
+    received: boolean;
+    resultAdded: boolean;
+    UserId: mongoose.Schema.Types.ObjectId;
+}
+export declare const FamilySchema: mongoose.Schema<Document<Family, any, any>, mongoose.Model<Document<Family, any, any>, any, any>, {}>;
