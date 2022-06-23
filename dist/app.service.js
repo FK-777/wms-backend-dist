@@ -86,6 +86,7 @@ let AppService = class AppService {
                 OfficeId: undefined,
                 officeName: "Hello",
                 pNumber: 0,
+                designation: '',
                 university: '',
                 address: '',
                 city: '',

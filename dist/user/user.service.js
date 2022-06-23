@@ -121,6 +121,7 @@ let UserService = class UserService {
                 id: user._id,
                 fName: user.fName,
                 lName: user.lName,
+                designation: user.designation,
                 email: user.email,
                 pNumber: user.pNumber,
                 lat: user.lat,

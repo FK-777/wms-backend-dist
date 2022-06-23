@@ -13,7 +13,7 @@ exports.GetApiDto = void 0;
 const class_validator_1 = require("class-validator");
 class GetApiDto {
     constructor() {
-        this.l = 50;
+        this.l = 500000;
         this.o = 0;
     }
 }

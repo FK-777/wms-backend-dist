@@ -16,6 +16,12 @@ exports.UserSchema = new mongoose.Schema({
         maxlength: 100,
         required: false,
     },
+    designation: {
+        type: String,
+        minlength: 2,
+        maxlength: 100,
+        required: false,
+    },
     officeName: {
         type: String,
         minlength: 2,

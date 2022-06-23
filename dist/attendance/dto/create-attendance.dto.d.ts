@@ -4,6 +4,7 @@ export declare class CreateAttendanceDto {
     outTime: string;
     date: string;
     day: number;
+    month: number;
     lat: number;
     lng: number;
     status: string;

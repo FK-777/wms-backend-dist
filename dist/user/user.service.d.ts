@@ -41,6 +41,7 @@ export declare class UserService {
         id: any;
         fName: string;
         lName: string;
+        designation: string;
         email: string;
         pNumber: number;
         lat: number;

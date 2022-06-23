@@ -33,6 +33,10 @@ __decorate([
 __decorate([
     class_validator_1.IsOptional(),
     __metadata("design:type", Number)
+], CreateAttendanceDto.prototype, "month", void 0);
+__decorate([
+    class_validator_1.IsOptional(),
+    __metadata("design:type", Number)
 ], CreateAttendanceDto.prototype, "lat", void 0);
 __decorate([
     class_validator_1.IsOptional(),
