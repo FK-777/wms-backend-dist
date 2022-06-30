@@ -5,6 +5,10 @@ export declare class CreateAttendanceDto {
     date: string;
     day: number;
     month: number;
+    inHour: number;
+    outHour: number;
+    inMin: number;
+    outMin: number;
     lat: number;
     lng: number;
     status: string;

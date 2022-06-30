@@ -37,6 +37,22 @@ __decorate([
 __decorate([
     mongoose_1.Prop({ required: false }),
     __metadata("design:type", Number)
+], Attendance.prototype, "inHour", void 0);
+__decorate([
+    mongoose_1.Prop({ required: false }),
+    __metadata("design:type", Number)
+], Attendance.prototype, "outHour", void 0);
+__decorate([
+    mongoose_1.Prop({ required: false }),
+    __metadata("design:type", Number)
+], Attendance.prototype, "inMin", void 0);
+__decorate([
+    mongoose_1.Prop({ required: false }),
+    __metadata("design:type", Number)
+], Attendance.prototype, "outMin", void 0);
+__decorate([
+    mongoose_1.Prop({ required: false }),
+    __metadata("design:type", Number)
 ], Attendance.prototype, "lat", void 0);
 __decorate([
     mongoose_1.Prop({ required: false }),
