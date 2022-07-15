@@ -9,46 +9,36 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.CreateLeaveDto = void 0;
+exports.CreateLocationDto = void 0;
 const class_validator_1 = require("class-validator");
 const mongoose_1 = require("mongoose");
-class CreateLeaveDto {
+class CreateLocationDto {
 }
 __decorate([
-    class_validator_1.IsEnum(["Medical", "Casual", "Privilege", "Compensatory Off"]),
     class_validator_1.IsOptional(),
     __metadata("design:type", String)
-], CreateLeaveDto.prototype, "leaveType", void 0);
+], CreateLocationDto.prototype, "time", void 0);
 __decorate([
     class_validator_1.IsOptional(),
     __metadata("design:type", String)
-], CreateLeaveDto.prototype, "startDate", void 0);
+], CreateLocationDto.prototype, "date", void 0);
 __decorate([
     class_validator_1.IsOptional(),
-    __metadata("design:type", String)
-], CreateLeaveDto.prototype, "endDate", void 0);
+    __metadata("design:type", Number)
+], CreateLocationDto.prototype, "latitude", void 0);
 __decorate([
     class_validator_1.IsOptional(),
-    __metadata("design:type", String)
-], CreateLeaveDto.prototype, "date", void 0);
-__decorate([
-    class_validator_1.IsOptional(),
-    __metadata("design:type", String)
-], CreateLeaveDto.prototype, "reason", void 0);
-__decorate([
-    class_validator_1.IsEnum(["Pending", "Approved", "Declined"]),
-    class_validator_1.IsOptional(),
-    __metadata("design:type", String)
-], CreateLeaveDto.prototype, "status", void 0);
+    __metadata("design:type", Number)
+], CreateLocationDto.prototype, "longitude", void 0);
 __decorate([
     class_validator_1.IsOptional(),
     class_validator_1.IsMongoId(),
     __metadata("design:type", mongoose_1.Schema.Types.ObjectId)
-], CreateLeaveDto.prototype, "EmployeeId", void 0);
+], CreateLocationDto.prototype, "EmployeeId", void 0);
 __decorate([
     class_validator_1.IsOptional(),
     class_validator_1.IsMongoId(),
     __metadata("design:type", mongoose_1.Schema.Types.ObjectId)
-], CreateLeaveDto.prototype, "OfficeId", void 0);
-exports.CreateLeaveDto = CreateLeaveDto;
-//# sourceMappingURL=create-leave.dto.js.map
+], CreateLocationDto.prototype, "OfficeId", void 0);
+exports.CreateLocationDto = CreateLocationDto;
+//# sourceMappingURL=create-location.dto.js.map

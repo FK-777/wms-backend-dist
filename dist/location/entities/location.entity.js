@@ -9,66 +9,38 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.AttendanceSchema = exports.Attendance = void 0;
+exports.LocationSchema = exports.Location = void 0;
 const mongoose_1 = require("@nestjs/mongoose");
 const mongoose = require("mongoose");
-let Attendance = class Attendance {
+let Location = class Location {
 };
 __decorate([
     mongoose_1.Prop({ required: false }),
     __metadata("design:type", String)
-], Attendance.prototype, "inTime", void 0);
+], Location.prototype, "time", void 0);
 __decorate([
     mongoose_1.Prop({ required: false }),
     __metadata("design:type", String)
-], Attendance.prototype, "outTime", void 0);
-__decorate([
-    mongoose_1.Prop({ required: false }),
-    __metadata("design:type", String)
-], Attendance.prototype, "date", void 0);
+], Location.prototype, "date", void 0);
 __decorate([
     mongoose_1.Prop({ required: false }),
     __metadata("design:type", Number)
-], Attendance.prototype, "day", void 0);
+], Location.prototype, "lattitude", void 0);
 __decorate([
     mongoose_1.Prop({ required: false }),
     __metadata("design:type", Number)
-], Attendance.prototype, "month", void 0);
-__decorate([
-    mongoose_1.Prop({ required: false }),
-    __metadata("design:type", Number)
-], Attendance.prototype, "lat", void 0);
-__decorate([
-    mongoose_1.Prop({ required: false }),
-    __metadata("design:type", Number)
-], Attendance.prototype, "lng", void 0);
-__decorate([
-    mongoose_1.Prop({ required: false }),
-    __metadata("design:type", String)
-], Attendance.prototype, "status", void 0);
-__decorate([
-    mongoose_1.Prop({ required: false }),
-    __metadata("design:type", Boolean)
-], Attendance.prototype, "isVerified", void 0);
-__decorate([
-    mongoose_1.Prop({ enum: ["pin", "thumb"], required: false }),
-    __metadata("design:type", String)
-], Attendance.prototype, "entery", void 0);
-__decorate([
-    mongoose_1.Prop({ enum: ["in", "out"], required: false }),
-    __metadata("design:type", String)
-], Attendance.prototype, "location", void 0);
+], Location.prototype, "longitude", void 0);
 __decorate([
     mongoose_1.Prop({ required: false, type: mongoose.Schema.Types.ObjectId, ref: "User" }),
     __metadata("design:type", mongoose.Schema.Types.ObjectId)
-], Attendance.prototype, "EmployeeId", void 0);
+], Location.prototype, "EmployeeId", void 0);
 __decorate([
     mongoose_1.Prop({ required: false, type: mongoose.Schema.Types.ObjectId, ref: "User" }),
     __metadata("design:type", mongoose.Schema.Types.ObjectId)
-], Attendance.prototype, "OfficeId", void 0);
-Attendance = __decorate([
+], Location.prototype, "OfficeId", void 0);
+Location = __decorate([
     mongoose_1.Schema()
-], Attendance);
-exports.Attendance = Attendance;
-exports.AttendanceSchema = mongoose_1.SchemaFactory.createForClass(Attendance);
-//# sourceMappingURL=attendance.entity.js.map
+], Location);
+exports.Location = Location;
+exports.LocationSchema = mongoose_1.SchemaFactory.createForClass(Location);
+//# sourceMappingURL=location.entity.js.map

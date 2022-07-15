@@ -3,8 +3,8 @@ import * as mongoose from "mongoose";
 export declare type LeaveDocument = Leave & Document;
 export declare class Leave {
     leaveType: string;
-    startDate: Date;
-    endDate: Date;
+    startDate: string;
+    endDate: string;
     date: string;
     reason: string;
     status: string;

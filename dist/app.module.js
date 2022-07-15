@@ -21,6 +21,7 @@ const leave_module_1 = require("./leave/leave.module");
 const app_service_1 = require("./app.service");
 const services_module_1 = require("./services/services.module");
 const schedule_1 = require("@nestjs/schedule");
+const location_module_1 = require("./location/location.module");
 let AppModule = class AppModule {
 };
 AppModule = __decorate([
@@ -41,6 +42,7 @@ AppModule = __decorate([
             shared_module_1.SharedModule,
             leave_module_1.LeaveModule,
             services_module_1.ServicesModule,
+            location_module_1.LocationModule,
         ],
         providers: [
             app_service_1.AppService
