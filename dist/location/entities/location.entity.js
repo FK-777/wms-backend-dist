@@ -25,7 +25,7 @@ __decorate([
 __decorate([
     mongoose_1.Prop({ required: false }),
     __metadata("design:type", Number)
-], Location.prototype, "lattitude", void 0);
+], Location.prototype, "latitude", void 0);
 __decorate([
     mongoose_1.Prop({ required: false }),
     __metadata("design:type", Number)

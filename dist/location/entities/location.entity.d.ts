@@ -4,7 +4,7 @@ export declare type LocationDocument = Location & Document;
 export declare class Location {
     time: string;
     date: string;
-    lattitude: number;
+    latitude: number;
     longitude: number;
     EmployeeId: mongoose.Schema.Types.ObjectId;
     OfficeId: mongoose.Schema.Types.ObjectId;
