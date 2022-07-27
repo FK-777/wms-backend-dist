@@ -20,6 +20,10 @@ exports.UserSchema = new mongoose.Schema({
         type: String,
         required: false,
     },
+    shiftName: {
+        type: String,
+        required: false,
+    },
     designation: {
         type: String,
         minlength: 2,

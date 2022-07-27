@@ -45,7 +45,7 @@ let UserController = class UserController {
             throw new common_1.BadRequestException("Invalid role selected");
         }
         return await this.userService.signup({
-            fName: createUserDto.fName, lName: createUserDto.lName, deviceID: createUserDto.deviceID, designation: createUserDto.designation, officeName: createUserDto.officeName, email: createUserDto.email,
+            fName: createUserDto.fName, lName: createUserDto.lName, deviceID: createUserDto.deviceID, shiftName: createUserDto.shiftName, designation: createUserDto.designation, officeName: createUserDto.officeName, email: createUserDto.email,
             password: createUserDto.password, RoleId: role._id, OfficeId: createUserDto.OfficeId,
             pNumber: createUserDto.pNumber, university: createUserDto.university, address: createUserDto.address,
             city: createUserDto.city, lat: createUserDto.lat, lng: createUserDto.lng, pin: createUserDto.pin
@@ -75,7 +75,7 @@ let UserController = class UserController {
     async create(createUserDto) {
         const role = await this.roleService.findOneByIdentifier(createUserDto.role);
         return this.userService.create({
-            fName: createUserDto.fName, lName: createUserDto.lName, deviceID: createUserDto.deviceID, designation: createUserDto.designation, officeName: createUserDto.officeName, email: createUserDto.email,
+            fName: createUserDto.fName, lName: createUserDto.lName, deviceID: createUserDto.deviceID, shiftName: createUserDto.shiftName, designation: createUserDto.designation, officeName: createUserDto.officeName, email: createUserDto.email,
             password: createUserDto.password, RoleId: role._id, OfficeId: createUserDto.OfficeId,
             pNumber: createUserDto.pNumber, university: createUserDto.university, address: createUserDto.address,
             city: createUserDto.city, lat: createUserDto.lat, lng: createUserDto.lng, pin: createUserDto.pin

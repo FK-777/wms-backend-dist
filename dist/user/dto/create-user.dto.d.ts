@@ -3,6 +3,7 @@ export declare class CreateUserDto {
     readonly fName: string;
     readonly lName: string;
     readonly deviceID: string;
+    readonly shiftName: string;
     readonly designation: string;
     readonly officeName: string;
     readonly email: string;

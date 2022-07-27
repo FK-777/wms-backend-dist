@@ -81,6 +81,7 @@ let AppService = class AppService {
                 fName: "Super",
                 lName: "Admin",
                 deviceID: "imei",
+                shiftName: "First",
                 email: "admin@example.com",
                 password: "hello@12",
                 RoleId: insertedAdminRole[0]._id,

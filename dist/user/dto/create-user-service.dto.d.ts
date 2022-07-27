@@ -3,6 +3,7 @@ export declare class CreateUserServiceDto {
     fName: string;
     lName: string;
     deviceID: string;
+    shiftName: string;
     designation: string;
     officeName: string;
     email: string;

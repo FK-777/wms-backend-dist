@@ -3,6 +3,7 @@ export interface User extends Document {
     fName: string;
     lName: string;
     deviceID: string;
+    shiftName: string;
     designation: string;
     email: string;
     password: string;
