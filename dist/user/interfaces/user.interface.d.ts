@@ -2,6 +2,7 @@ import { Document } from "mongoose";
 export interface User extends Document {
     fName: string;
     lName: string;
+    deviceID: string;
     designation: string;
     email: string;
     password: string;

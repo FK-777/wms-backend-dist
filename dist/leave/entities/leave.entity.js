@@ -20,11 +20,11 @@ __decorate([
 ], Leave.prototype, "leaveType", void 0);
 __decorate([
     mongoose_1.Prop({ required: false }),
-    __metadata("design:type", String)
+    __metadata("design:type", Date)
 ], Leave.prototype, "startDate", void 0);
 __decorate([
     mongoose_1.Prop({ required: false }),
-    __metadata("design:type", String)
+    __metadata("design:type", Date)
 ], Leave.prototype, "endDate", void 0);
 __decorate([
     mongoose_1.Prop({ required: false }),

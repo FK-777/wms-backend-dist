@@ -1,8 +1,8 @@
 import { Schema as MongooseSchema } from "mongoose";
 export declare class CreateLeaveDto {
     leaveType: string;
-    startDate: string;
-    endDate: string;
+    startDate: Date;
+    endDate: Date;
     date: string;
     reason: string;
     status: string;

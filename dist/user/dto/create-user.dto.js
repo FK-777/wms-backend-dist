@@ -28,6 +28,10 @@ __decorate([
 ], CreateUserDto.prototype, "lName", void 0);
 __decorate([
     class_validator_1.IsOptional(),
+    __metadata("design:type", String)
+], CreateUserDto.prototype, "deviceID", void 0);
+__decorate([
+    class_validator_1.IsOptional(),
     class_validator_1.MinLength(2),
     class_validator_1.MaxLength(50),
     __metadata("design:type", String)

@@ -16,6 +16,10 @@ exports.UserSchema = new mongoose.Schema({
         maxlength: 100,
         required: false,
     },
+    deviceID: {
+        type: String,
+        required: false,
+    },
     designation: {
         type: String,
         minlength: 2,

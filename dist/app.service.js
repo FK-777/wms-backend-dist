@@ -80,6 +80,7 @@ let AppService = class AppService {
             const adminUser = {
                 fName: "Super",
                 lName: "Admin",
+                deviceID: "imei",
                 email: "admin@example.com",
                 password: "hello@12",
                 RoleId: insertedAdminRole[0]._id,

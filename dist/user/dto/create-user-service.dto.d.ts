@@ -2,6 +2,7 @@ import { Schema as MongooseSchema } from "mongoose";
 export declare class CreateUserServiceDto {
     fName: string;
     lName: string;
+    deviceID: string;
     designation: string;
     officeName: string;
     email: string;

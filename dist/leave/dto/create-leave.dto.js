@@ -21,11 +21,13 @@ __decorate([
 ], CreateLeaveDto.prototype, "leaveType", void 0);
 __decorate([
     class_validator_1.IsOptional(),
-    __metadata("design:type", String)
+    class_validator_1.IsDateString(),
+    __metadata("design:type", Date)
 ], CreateLeaveDto.prototype, "startDate", void 0);
 __decorate([
     class_validator_1.IsOptional(),
-    __metadata("design:type", String)
+    class_validator_1.IsDateString(),
+    __metadata("design:type", Date)
 ], CreateLeaveDto.prototype, "endDate", void 0);
 __decorate([
     class_validator_1.IsOptional(),
