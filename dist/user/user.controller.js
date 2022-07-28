@@ -109,6 +109,10 @@ let UserController = class UserController {
             updateUserServiceDto.fName = updateUserDto.fName;
         if (updateUserDto.lName)
             updateUserServiceDto.lName = updateUserDto.lName;
+        if (updateUserDto.deviceID)
+            updateUserServiceDto.deviceID = updateUserDto.deviceID;
+        if (updateUserDto.shiftName)
+            updateUserServiceDto.shiftName = updateUserDto.shiftName;
         if (updateUserDto.email)
             updateUserServiceDto.email = updateUserDto.email;
         if (updateUserDto.password)

@@ -23,6 +23,7 @@ const services_module_1 = require("./services/services.module");
 const schedule_1 = require("@nestjs/schedule");
 const location_module_1 = require("./location/location.module");
 const shift_module_1 = require("./shift/shift.module");
+const holiday_module_1 = require("./holiday/holiday.module");
 let AppModule = class AppModule {
 };
 AppModule = __decorate([
@@ -45,6 +46,7 @@ AppModule = __decorate([
             services_module_1.ServicesModule,
             location_module_1.LocationModule,
             shift_module_1.ShiftModule,
+            holiday_module_1.HolidayModule,
         ],
         providers: [
             app_service_1.AppService,
