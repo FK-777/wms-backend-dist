@@ -20,12 +20,12 @@ __decorate([
 __decorate([
     class_validator_1.IsOptional(),
     class_validator_1.IsDateString(),
-    __metadata("design:type", Date)
+    __metadata("design:type", String)
 ], CreateShiftDto.prototype, "startTime", void 0);
 __decorate([
     class_validator_1.IsOptional(),
     class_validator_1.IsDateString(),
-    __metadata("design:type", Date)
+    __metadata("design:type", String)
 ], CreateShiftDto.prototype, "endTime", void 0);
 exports.CreateShiftDto = CreateShiftDto;
 //# sourceMappingURL=create-shift.dto.js.map

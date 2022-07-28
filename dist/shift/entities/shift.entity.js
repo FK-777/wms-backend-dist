@@ -19,11 +19,11 @@ __decorate([
 ], Shift.prototype, "name", void 0);
 __decorate([
     mongoose_1.Prop({ required: false }),
-    __metadata("design:type", Date)
+    __metadata("design:type", String)
 ], Shift.prototype, "startTime", void 0);
 __decorate([
     mongoose_1.Prop({ required: false }),
-    __metadata("design:type", Date)
+    __metadata("design:type", String)
 ], Shift.prototype, "endTime", void 0);
 Shift = __decorate([
     mongoose_1.Schema()
