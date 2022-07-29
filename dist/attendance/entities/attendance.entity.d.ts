@@ -9,6 +9,8 @@ export declare class Attendance {
     month: number;
     lat: number;
     lng: number;
+    outLat: number;
+    outLng: number;
     status: string;
     isVerified: boolean;
     entery: string;

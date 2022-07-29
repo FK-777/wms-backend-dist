@@ -44,6 +44,14 @@ __decorate([
 ], CreateAttendanceDto.prototype, "lng", void 0);
 __decorate([
     class_validator_1.IsOptional(),
+    __metadata("design:type", Number)
+], CreateAttendanceDto.prototype, "outLat", void 0);
+__decorate([
+    class_validator_1.IsOptional(),
+    __metadata("design:type", Number)
+], CreateAttendanceDto.prototype, "outLng", void 0);
+__decorate([
+    class_validator_1.IsOptional(),
     __metadata("design:type", String)
 ], CreateAttendanceDto.prototype, "status", void 0);
 __decorate([

@@ -44,6 +44,14 @@ __decorate([
 ], Attendance.prototype, "lng", void 0);
 __decorate([
     mongoose_1.Prop({ required: false }),
+    __metadata("design:type", Number)
+], Attendance.prototype, "outLat", void 0);
+__decorate([
+    mongoose_1.Prop({ required: false }),
+    __metadata("design:type", Number)
+], Attendance.prototype, "outLng", void 0);
+__decorate([
+    mongoose_1.Prop({ required: false }),
     __metadata("design:type", String)
 ], Attendance.prototype, "status", void 0);
 __decorate([

@@ -7,6 +7,8 @@ export declare class CreateAttendanceDto {
     month: number;
     lat: number;
     lng: number;
+    outLat: number;
+    outLng: number;
     status: string;
     entery: string;
     location: string;
